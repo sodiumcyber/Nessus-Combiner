@@ -107,8 +107,7 @@ python3 nesscomb.py
 # Found 23 unique medium/high/critical vulnerabilities
 # CSV report created: output/vulnerability_report.csv
 # HTML report created: output/vulnerability_report.html
-#
-# ✅ Done!
+
 ```
 
 ## Command-Line Options
@@ -147,8 +146,6 @@ python3 nesscomb.py
 
 ## Troubleshooting
 
-**No files found**: Ensure `.nessus` files are in the correct input directory
-
 **XML parsing error**: One or more `.nessus` files may be corrupted - check the error message for which file
 
 **Empty report**: No Medium/High/Critical vulnerabilities found in the scans
@@ -156,4 +153,3 @@ python3 nesscomb.py
 ## License
 
 This tool is provided as-is for security assessment purposes.
-
